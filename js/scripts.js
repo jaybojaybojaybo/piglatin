@@ -1,11 +1,19 @@
 $(document).ready(function() {
-  $("form").submit(function(event) {
+  $("form#pig").submit(function(event) {
   event.preventDefault();
 
   var entry = $("input#english").val();
+  var lowercase = entry.toLowerCase();
 
-    alert(entry.toLowerCase());
+    if (lowercase === "a") {
+      var pigLatin = lowercase + "ay";
+    }
+
+    //alert(lowercase);
+
+    $("#result").text(pigLatin);
 
   });
+
 
 });

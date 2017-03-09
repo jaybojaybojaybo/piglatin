@@ -14,7 +14,7 @@ The program will lowercase all alphabetical characters entered.
 Example Input: Red
 Example Output: red
 
-The program does not nothing to entries with more than one consonant but zero vowels and alert to check spelling/ or "does not accept abreviations."
+The program does not nothing to entries with more than one consonant but zero vowels and alert to check spelling/ or "does not accept abbreviations."
 Example: Dr
 Example: Dr
 
